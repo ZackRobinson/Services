@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.btnBoundToService:
-                intIntent.putExtra("data", "This is a bound service");
+                boundIntent.putExtra("data", "This is a bound service");
                 bindService(boundIntent, serviceConnection, Context.BIND_AUTO_CREATE);
                 break;
 
