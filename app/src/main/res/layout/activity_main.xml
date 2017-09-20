@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context="com.zackeryrobinson.services.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnNormalServiceStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Start Normal Service" />
+
+    <Button
+        android:id="@+id/btnNormalServiceStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Stop Normal Service" />
+
+    <Button
+    android:id="@+id/btnIntentServiceStart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="startServices"
+    android:text="Start Intent Service" />
+
+    <Button
+        android:id="@+id/btnBoundToService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Bound to Service" />
+
+
+    <Button
+        android:id="@+id/btnInitDataForBound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Init data for bound" />
+
+    <Button
+        android:id="@+id/btnGetDataForBound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Get data for bound" />
+
+    <Button
+        android:id="@+id/btnUnboundToService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startServices"
+        android:text="Unbound to Service" />
+
+
+</LinearLayout>
